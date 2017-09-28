@@ -1,5 +1,5 @@
-# Product Name
-> Short blurb about what your product does.
+# Smart Device Programing
+> Lab materials for how to use Philips Hue to create smart home devices.
 
 [![Swift Version][swift-image]][swift-url]
 [![Build Status][travis-image]][travis-url]
