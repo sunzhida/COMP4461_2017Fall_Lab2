@@ -1,25 +1,37 @@
 # Smart Device Programing
 > Lab materials for how to use Philips Hue to create smart home devices.
 
-[![Swift Version][swift-image]][swift-url]
+<!-- [![Swift Version][swift-image]][swift-url] -->
 [![Build Status][travis-image]][travis-url]
 [![License][license-image]][license-url]
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
-[![CocoaPods Compatible](https://img.shields.io/cocoapods/v/EZSwiftExtensions.svg)](https://img.shields.io/cocoapods/v/LFAlertController.svg)  
-[![Platform](https://img.shields.io/cocoapods/p/LFAlertController.svg?style=flat)](http://cocoapods.org/pods/LFAlertController)
+<!-- [![CocoaPods Compatible](https://img.shields.io/cocoapods/v/EZSwiftExtensions.svg)](https://img.shields.io/cocoapods/v/LFAlertController.svg)   -->
+<!-- [![Platform](https://img.shields.io/cocoapods/p/LFAlertController.svg?style=flat)](http://cocoapods.org/pods/LFAlertController) -->
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+
+In this lab, we will introduce how to program with Philips Hue by JavaScript and Python separately.
 
 One to two paragraph statement about your product and what it does.
 
 ![](header.png)
 
-## Features
+## Table of contents
+
+- [Usage](#requirements)
+- [Installation](#installation)
+- [Recommended configurations](#recommended-configurations)
+- [Updating](#updating)
+- [Uninstallation](#uninstallation)
+- [Contributing](#contributing)
+- [License](#license)
+
+<!-- ## Features
 
 - [x] Feature 1
 - [x] Feature 2
 - [x] Feature 3
 - [x] Feature 4
-- [x] Feature 5
+- [x] Feature 5 -->
 
 ## Requirements
 
