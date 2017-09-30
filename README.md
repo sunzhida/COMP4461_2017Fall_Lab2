@@ -62,8 +62,55 @@ You can acquire the detail information about the bridge through [this](https://a
 [Harmony for Philips Hue](http://benknight.github.io/hue-harmony/) is an open sourced web application that sets Philips Hue lights colors based on the color relationships.
 
 ### Live Demo
-We will follow the tutorials [here](https://developers.meethue.com/documentation/getting-started) to show how to program with Hue gradually.
+We will follow the tutorials [here](https://developers.meethue.com/documentation/getting-started) to show how to get familiar with the programming environments with Hue.
 
+First, we need to obtain the _Internal IP Address_ and bridge assigned _Username_.
+
+After get connected with Hue bulb(s) via your devices, we can acquire all the bulbs' state through the link:
+
+```
+http://<Internal IP Address>/api/<Username>/lights
+```
+
+The structure of the data is like (here we use only one bulb):
+
+```
+{
+	"1": {
+		"state": {
+			"on": true,
+			"bri": 254,
+			"hue": 14910,
+			"sat": 144,
+			"effect": "none",
+			"xy": [0.4596, 0.4105],
+			"ct": 370,
+			"alert": "none",
+			"colormode": "ct",
+			"reachable": true
+		},
+		"swupdate": {
+			"state": "transferring",
+			"lastinstall": null
+		},
+		"type": "Extended color light",
+		"name": "Hue color lamp 1",
+		"modelid": "LCT007",
+		"manufacturername": "Philips",
+		"uniqueid": "(omit)",
+		"swversion": "5.38.1.14919"
+	},
+  ...
+}
+```
+
+Then we can try to modify the bulb's state via:
+
+```
+http://<Internal IP Address>/api/<Username>/lights/1/state
+```
+
+with ``PUT`` method.
 
 ## Tips
 + Involve in the development community to get inspired, e.g., [Hue Pro Development Community](https://plus.google.com/communities/117365177082293877496).
