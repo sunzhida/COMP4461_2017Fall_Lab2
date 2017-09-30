@@ -21,7 +21,9 @@ In this lab, we will introduce how to program with Philips Hue by JavaScript. In
 ## Overview
 
 ### What is Philips Hue?
-Philips Hue is a line of color changing LED lamps and white bulbs created by Philips [1]. It can provide an immersive experience with various user-defined lighting. There are different kinds of products in this line, and we are going to use ‘Philips Hue White and Color Wireless Ambiance Starter Kit A19 E27 [2]’ in this lab.
+Philips Hue is a line of color changing LED lamps and white bulbs created by Philips [1]. It can provide an immersive
+experience with various user-defined lighting. There are different kinds of products in this line, and we are going to
+use ‘[Philips Hue White and Color Wireless Ambiance Starter Kit A19 E27](https://www.apple.com/hk/shop/product/HJCA2PA/B/philips-hue-white-and-color-wireless-ambiance-starter-kit-a19-e27)’ in this lab.
 The set of Philips Hue that we used in our project consists of four parts:
 * Three Hue light bulbs
 * One Hue bridge
