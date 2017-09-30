@@ -7,8 +7,6 @@
 
 In this lab, we will introduce how to program with Philips Hue by JavaScript. In this repository, there is a framework created for you to get started.
 
-![](header.png)
-
 ## Table of contents
 
 - [Overview](#overview)
@@ -37,7 +35,7 @@ There are four components within Hue system [3]:
 * Bridge: The communication part of the system. It enables the bulbs to communicate with each other as well as the portal through the Internet.
 * Lights: The output of the system. They are connected to the bridge via an open standards protocol called ZigBee Light Link. These smart bulbs contain three types of LED specially chosen to produce a range of colors and intensities.
 
-
+![](Structure.png)
 
 
 
