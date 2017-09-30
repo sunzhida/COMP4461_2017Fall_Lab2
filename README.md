@@ -19,7 +19,7 @@ In this lab, we will introduce how to program with Philips Hue by JavaScript. In
 ## Overview
 
 ### What is Philips Hue?
-Philips Hue is a line of color changing LED lamps and white bulbs created by Philips [1]. It can provide an immersive
+[Philips Hue](https://en.wikipedia.org/wiki/Philips_Hue) is a line of color changing LED lamps and white bulbs created by Philips. It can provide an immersive
 experience with various user-defined lighting. There are different kinds of products in this line, and we are going to
 use ‘[Philips Hue White and Color Wireless Ambiance Starter Kit A19 E27](https://www.apple.com/hk/shop/product/HJCA2PA/B/philips-hue-white-and-color-wireless-ambiance-starter-kit-a19-e27)’ in this lab.
 The set of Philips Hue that we used in our project consists of four parts:
@@ -29,66 +29,55 @@ The set of Philips Hue that we used in our project consists of four parts:
 * LAN cable to connect the Hue bridge to your router
 
 ### How Philips Hue works?
-There are four components within Hue system [3]:
-* Applications: The control part of the system. It provides the interface for the users to make the lights do smart things.
-* Portal: The connection part of the system. It delivers control commands from outside and keeps your software in the bridge up-to-date. The portal presents a utility API to help you discover the address of your bridge.
-* Bridge: The communication part of the system. It enables the bulbs to communicate with each other as well as the portal through the Internet.
-* Lights: The output of the system. They are connected to the bridge via an open standards protocol called ZigBee Light Link. These smart bulbs contain three types of LED specially chosen to produce a range of colors and intensities.
+There are [four components](https://developers.meethue.com/) within Hue system:
+* __Applications__: The control part of the system. It provides the interface for the users to make the lights do smart things.
+* __Portal__: The connection part of the system. It delivers control commands from outside and keeps your software in the bridge up-to-date. The portal presents a utility API to help you discover the address of your bridge.
+* __Bridge__: The communication part of the system. It enables the bulbs to communicate with each other as well as the portal through the Internet.
+* __Lights__: The output of the system. They are connected to the bridge via an open standards protocol called ZigBee Light Link. These smart bulbs contain three types of LED specially chosen to produce a range of colors and intensities.
 
 ![](Structure.png)
 
+## Configuration
+
+### How to set up Philips Hue?
+First, we need to prepare all the components as mentioned above. Make sure that:
+* The application connects the local network created by the Wi-Fi router.
+* The Wi-Fi router connects the Internet.
+* The bridge connects the Wi-Fi router, and all the blue lights are on without blinking.
+Note that your application and the bridge should be in the same local network.
+
+### How to get the bridge details?
+You can acquire the detail information about the bridge through [this](https://account.meethue.com/login), like the Internal IP Address, Gateway, etc. You need this information to debug with the lights when you develop your applications.
+
+![](indexpage.png)
+
+## Development
+
+### Mobile demo
+[Philips Hue](https://itunes.apple.com/us/app/philips-hue/id1055281310?mt=8) (by Philips Lighting BV) is a mobile application that lets you easily control your lights from any device and create the right ambience for every moment.
+
+### Web demo
+[Harmony for Philips Hue](http://benknight.github.io/hue-harmony/) is an open sourced web application that sets Philips Hue lights colors based on the color relationships.
+
+### Live Demo
+We will follow the tutorials [here](https://developers.meethue.com/documentation/getting-started) to show how to program with Hue gradually.
 
 
-- iOS 8.0+
-- Xcode 7.3
+## Tips
++ Involve in the development community to get inspired, e.g., [Hue Pro Development Community](https://plus.google.com/communities/117365177082293877496).
++ Philips Hue [API](https://developers.meethue.com/philips-hue-api).
++ You can learn from the other developers’ works from [here](https://developers.meethue.com/tools-and-sdks).
 
-## Installation
-
-#### CocoaPods
-You can use [CocoaPods](http://cocoapods.org/) to install `YourLibrary` by adding it to your `Podfile`:
-
-```ruby
-platform :ios, '8.0'
-use_frameworks!
-pod 'YourLibrary'
-```
-
-To get the full benefits import `YourLibrary` wherever you import UIKit
-
-``` swift
-import UIKit
-import YourLibrary
-```
-#### Carthage
-Create a `Cartfile` that lists the framework and run `carthage update`. Follow the [instructions](https://github.com/Carthage/Carthage#if-youre-building-for-ios) to add `$(SRCROOT)/Carthage/Build/iOS/YourLibrary.framework` to an iOS project.
-
-```
-github "yourUsername/yourlibrary"
-```
-#### Manually
-1. Download and drop ```YourLibrary.swift``` in your project.  
-2. Congratulations!  
-
-## Usage example
-
-```swift
-import EZSwiftExtensions
-ez.detectScreenShot { () -> () in
-    print("User took a screen shot")
-}
-```
 
 ## Contribute
 
-We would love you for the contribution to **YourLibraryName**, check the ``LICENSE`` file for more info.
+We would love you for the contribution to **Lab2**, check the ``LICENSE`` file for more info.
 
 ## Meta
 
-Your Name – [@YourTwitter](https://twitter.com/dbader_org) – YourEmail@example.com
+[Zhida Sun](http://zsunaj.student.ust.hk/)
 
-Distributed under the XYZ license. See ``LICENSE`` for more information.
-
-[https://github.com/yourname/github-link](https://github.com/dbader/)
+Distributed under the MIT license. See ``LICENSE`` for more information.
 
 [swift-image]:https://img.shields.io/badge/swift-3.0-orange.svg
 [swift-url]: https://swift.org/
