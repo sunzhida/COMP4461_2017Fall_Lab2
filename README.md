@@ -13,8 +13,8 @@ In this lab, we will introduce how to program with Philips Hue by JavaScript. In
 - [Configuration](#configuration)
 - [Development](#development)
 - [Tips](#tips)
-- [Contributing](#contributing)
-- [License](#license)
+- [Contribute](#contribute)
+- [Meta](#meta)
 
 ## Overview
 
