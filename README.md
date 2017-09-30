@@ -49,7 +49,7 @@ Note that your application and the bridge should be in the same local network.
 ### How to get the bridge details?
 You can acquire the detail information about the bridge through [this](https://account.meethue.com/login), like the Internal IP Address, Gateway, etc. You need this information to debug with the lights when you develop your applications.
 
-![](indexpage.png =320x)
+<img src="indexpage.png" alt="Drawing" style="width: 320px;"/>
 
 ## Development
 
