@@ -46,6 +46,7 @@ First, we need to prepare all the components as mentioned above. Make sure that:
 * The application connects the local network created by the Wi-Fi router.
 * The Wi-Fi router connects the Internet.
 * The bridge connects the Wi-Fi router, and all the blue lights are on without blinking.
+
 Note that your application and the bridge should be in the same local network.
 
 ### How to get the bridge details?
@@ -111,6 +112,8 @@ http://<Internal IP Address>/api/<Username>/lights/1/state
 ```
 
 with ``PUT`` method.
+
+Note that the range for ``bri`` and ``sat`` are from ``0`` to ``254``, and the range for ``hue`` is from ``0`` to ``65535``.
 
 ## Tips
 + Involve in the development community to get inspired, e.g., [Hue Pro Development Community](https://plus.google.com/communities/117365177082293877496).
