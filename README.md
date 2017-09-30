@@ -1,39 +1,43 @@
 # Smart Device Programing
-> Lab materials for how to use Philips Hue to create smart home devices.
+> Lab materials for how to create smart home applications with Philips Hue.
 
-<!-- [![Swift Version][swift-image]][swift-url] -->
 [![Build Status][travis-image]][travis-url]
 [![License][license-image]][license-url]
-<!-- [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage) -->
-<!-- [![CocoaPods Compatible](https://img.shields.io/cocoapods/v/EZSwiftExtensions.svg)](https://img.shields.io/cocoapods/v/LFAlertController.svg)   -->
-<!-- [![Platform](https://img.shields.io/cocoapods/p/LFAlertController.svg?style=flat)](http://cocoapods.org/pods/LFAlertController) -->
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-In this lab, we will introduce how to program with Philips Hue by JavaScript and Python separately.
-
-One to two paragraph statement about your product and what it does.
+In this lab, we will introduce how to program with Philips Hue by JavaScript. In this repository, there is a framework created for you to get started.
 
 ![](header.png)
 
 ## Table of contents
 
-- [Usage](#requirements)
-- [Installation](#installation)
-- [Recommended configurations](#recommended-configurations)
-- [Updating](#updating)
-- [Uninstallation](#uninstallation)
+- [Overview](#overview)
+- [Configuration](#configuration)
+- [Development](#development)
+- [Tips](#tips)
 - [Contributing](#contributing)
 - [License](#license)
 
-<!-- ## Features
+## Overview
 
-- [x] Feature 1
-- [x] Feature 2
-- [x] Feature 3
-- [x] Feature 4
-- [x] Feature 5 -->
+### What is Philips Hue?
+Philips Hue is a line of color changing LED lamps and white bulbs created by Philips [1]. It can provide an immersive experience with various user-defined lighting. There are different kinds of products in this line, and we are going to use ‘Philips Hue White and Color Wireless Ambiance Starter Kit A19 E27 [2]’ in this lab.
+The set of Philips Hue that we used in our project consists of four parts:
+* Three Hue light bulbs
+* One Hue bridge
+* Power adapter for Hue bridge
+* LAN cable to connect the Hue bridge to your router
 
-## Requirements
+### How Philips Hue works?
+There are four components within Hue system [3]:
+* Applications: The control part of the system. It provides the interface for the users to make the lights do smart things.
+* Portal: The connection part of the system. It delivers control commands from outside and keeps your software in the bridge up-to-date. The portal presents a utility API to help you discover the address of your bridge.
+* Bridge: The communication part of the system. It enables the bulbs to communicate with each other as well as the portal through the Internet.
+* Lights: The output of the system. They are connected to the bridge via an open standards protocol called ZigBee Light Link. These smart bulbs contain three types of LED specially chosen to produce a range of colors and intensities.
+
+
+
+
 
 - iOS 8.0+
 - Xcode 7.3
