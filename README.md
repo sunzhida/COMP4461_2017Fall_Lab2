@@ -1,6 +1,7 @@
 # Smart Device Programing
 > Lab materials for how to create smart home applications with Philips Hue.
 
+[![Inline docs](http://inch-ci.org/github/sunzhida/COMP4461_2017Fall_Lab2.svg?branch=master)](http://inch-ci.org/github/sunzhida/COMP4461_2017Fall_Lab2)
 [![Build Status][travis-image]][travis-url]
 [![License][license-image]][license-url]
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
@@ -52,7 +53,7 @@ Note that your application and the bridge should be in the same local network.
 ### How to get the bridge details?
 You can acquire the detail information about the bridge through [this](https://account.meethue.com/login), like the Internal IP Address, Gateway, etc. You need this information to debug with the lights when you develop your applications.
 
-<img src="indexpage.png" alt="Drawing" style="max-width:50% !important;"/>
+<!-- <img src="indexpage.png" alt="Drawing" style="max-width:50% !important;"/> -->
 
 ## Development
 
