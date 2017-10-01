@@ -1,11 +1,11 @@
 # Smart Device Programing
 > Lab materials for how to create smart home applications with Philips Hue.
 
-[![Inline docs](http://inch-ci.org/github/sunzhida/COMP4461_2017Fall_Lab2.svg?branch=master)](http://inch-ci.org/github/sunzhida/COMP4461_2017Fall_Lab2)
+<!-- [![Inline docs](http://inch-ci.org/github/sunzhida/COMP4461_2017Fall_Lab2.svg?branch=master)](http://inch-ci.org/github/sunzhida/COMP4461_2017Fall_Lab2) -->
 [![Bootstrap][bootstrap-image]][bootstrap-url]
 [![HTML][html-image]][html-url]
 [![jshue][jshue-image]][jshue-url]
-[![Build Status][travis-image]][travis-url]
+<!-- [![Build Status][travis-image]][travis-url] -->
 [![License][license-image]][license-url]
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com)
 
@@ -148,7 +148,7 @@ We would love you for the contribution to **Lab2**, check the ``LICENSE`` file f
 [bootstrap-image]:https://img.shields.io/badge/Bootstrap-4.0.0-66a2a2.svg?style=flat
 [bootstrap-url]: https://getbootstrap.com/
 [license-image]: https://img.shields.io/badge/License-MIT-blue.svg
-[license-url]: LICENSE
+[license-url]: ./LICENSE
 [travis-image]: https://img.shields.io/travis/dbader/node-datadog-metrics/master.svg?style=flat
 [travis-url]: https://travis-ci.org/dbader/node-datadog-metrics
 [codebeat-image]: https://codebeat.co/badges/c19b47ea-2f9d-45df-8458-b2d952fe9dad
