@@ -135,13 +135,11 @@ After that you can follow the [instruction of jsHue](https://github.com/blargone
 
 ## Contribute
 
-We would love you for the contribution to **Lab2**, check the ``LICENSE`` file for more info.
+We would love you for the contribution to **Lab2**, check the ``LICENSE`` file for more information.
 
 ## Meta
 
-[Zhida Sun](http://zsunaj.student.ust.hk/)
-
-Distributed under the MIT license. See ``LICENSE`` for more information.
+[Zhida Sun](http://zsunaj.student.ust.hk/). Distributed under the MIT license. See ``LICENSE`` for more information.
 
 [html-image]:https://img.shields.io/badge/HTML5Boilerplate-6.0.1-66a2a2.svg
 [html-url]: https://html5boilerplate.com/
