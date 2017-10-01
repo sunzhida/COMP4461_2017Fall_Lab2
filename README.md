@@ -4,8 +4,10 @@
 [![Inline docs](http://inch-ci.org/github/sunzhida/COMP4461_2017Fall_Lab2.svg?branch=master)](http://inch-ci.org/github/sunzhida/COMP4461_2017Fall_Lab2)
 [![Build Status][travis-image]][travis-url]
 [![License][license-image]][license-url]
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-[![Bootstrap](https://img.shields.io/badge/Bootstrap-V4.0.0-purple.svg?style=flat)](https://getbootstrap.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com)
+[![Bootstrap][bootstrap-image]][bootstrap-url]
+[![HTML][html-image]][html-url]
+[![jshue][jshue-image]][jshue-url]
 
 In this lab, we will introduce how to program with Philips Hue with JavaScript. In this repository, there is a framework created for you to get started.
 
@@ -143,11 +145,15 @@ We would love you for the contribution to **Lab2**, check the ``LICENSE`` file f
 
 Distributed under the MIT license. See ``LICENSE`` for more information.
 
-[swift-image]:https://img.shields.io/badge/swift-3.0-orange.svg
-[swift-url]: https://swift.org/
+[html-image]:https://img.shields.io/badge/HTML5Boilerplate-6.0.1-orange.svg
+[html-url]: https://html5boilerplate.com/
+[jshue-image]:https://img.shields.io/badge/jsHue-2.1.1-yellow.svg?style=flat
+[jshue-url]: https://github.com/blargoner/jshue
+[bootstrap-image]:https://img.shields.io/badge/Bootstrap-4.0.0-purple.svg?style=flat
+[bootstrap-url]: https://getbootstrap.com/
 [license-image]: https://img.shields.io/badge/License-MIT-blue.svg
 [license-url]: LICENSE
-[travis-image]: https://img.shields.io/travis/dbader/node-datadog-metrics/master.svg?style=flat-square
+[travis-image]: https://img.shields.io/travis/dbader/node-datadog-metrics/master.svg?style=flat
 [travis-url]: https://travis-ci.org/dbader/node-datadog-metrics
 [codebeat-image]: https://codebeat.co/badges/c19b47ea-2f9d-45df-8458-b2d952fe9dad
 [codebeat-url]: https://codebeat.co/projects/github-com-vsouza-awesomeios-com
