@@ -5,7 +5,7 @@
 [![Build Status][travis-image]][travis-url]
 [![License][license-image]][license-url]
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-[![Bootstrap][https://img.shields.io/badge/Bootstrap-V4.0.0-purple.svg?style=flat]](https://getbootstrap.com/)
+[![Bootstrap](https://img.shields.io/badge/Bootstrap-V4.0.0-purple.svg?style=flat)](https://getbootstrap.com/)
 
 In this lab, we will introduce how to program with Philips Hue with JavaScript. In this repository, there is a framework created for you to get started.
 
