@@ -68,7 +68,7 @@ We will follow the tutorials [here](https://developers.meethue.com/documentation
 
 First, we need to obtain the _Internal IP Address_ and bridge assigned _Username_. After get connected with Hue bulb(s) via your devices, we can acquire all the bulbs' state through the link:
 
-```html
+```
 http://<Internal IP Address>/api/<Username>/lights
 ```
 
@@ -99,14 +99,13 @@ The structure of the data is like (here we use only one bulb):
 		"manufacturername": "Philips",
 		"uniqueid": "(omit)",
 		"swversion": "5.38.1.14919"
-	},
-  ...
+	}
 }
 ```
 
 Then we can try to modify the bulb's state via:
 
-```html
+```
 http://<Internal IP Address>/api/<Username>/lights/1/state
 ```
 
