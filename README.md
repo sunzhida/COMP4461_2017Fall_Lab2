@@ -2,12 +2,12 @@
 > Lab materials for how to create smart home applications with Philips Hue.
 
 [![Inline docs](http://inch-ci.org/github/sunzhida/COMP4461_2017Fall_Lab2.svg?branch=master)](http://inch-ci.org/github/sunzhida/COMP4461_2017Fall_Lab2)
-[![Build Status][travis-image]][travis-url]
-[![License][license-image]][license-url]
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com)
 [![Bootstrap][bootstrap-image]][bootstrap-url]
 [![HTML][html-image]][html-url]
 [![jshue][jshue-image]][jshue-url]
+[![Build Status][travis-image]][travis-url]
+[![License][license-image]][license-url]
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com)
 
 In this lab, we will introduce how to program with Philips Hue with JavaScript. In this repository, there is a framework created for you to get started.
 
