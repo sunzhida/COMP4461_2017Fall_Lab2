@@ -65,9 +65,7 @@ You can acquire the detail information about the bridge through [this](https://a
 ### Live Demo
 We will follow the tutorials [here](https://developers.meethue.com/documentation/getting-started) to show how to get familiar with the programming environments with Hue.
 
-First, we need to obtain the _Internal IP Address_ and bridge assigned _Username_.
-
-After get connected with Hue bulb(s) via your devices, we can acquire all the bulbs' state through the link:
+First, we need to obtain the _Internal IP Address_ and bridge assigned _Username_. After get connected with Hue bulb(s) via your devices, we can acquire all the bulbs' state through the link:
 
 ```
 http://<Internal IP Address>/api/<Username>/lights
