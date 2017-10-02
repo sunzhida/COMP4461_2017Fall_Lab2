@@ -141,11 +141,11 @@ We would love you for the contribution to **Lab2**, check the ``LICENSE`` file f
 
 [Zhida Sun](http://zsunaj.student.ust.hk/). Distributed under the MIT license. See ``LICENSE`` for more information.
 
-[html-image]:https://img.shields.io/badge/HTML5Boilerplate-6.0.1-66a2a2.svg
+[html-image]:https://img.shields.io/badge/HTML5Boilerplate-6.0.1-008C96.svg
 [html-url]: https://html5boilerplate.com/
-[jshue-image]:https://img.shields.io/badge/jsHue-2.1.1-66a2a2.svg?style=flat
+[jshue-image]:https://img.shields.io/badge/jsHue-2.1.1-008C96.svg?style=flat
 [jshue-url]: https://github.com/blargoner/jshue
-[bootstrap-image]:https://img.shields.io/badge/Bootstrap-4.0.0-66a2a2.svg?style=flat
+[bootstrap-image]:https://img.shields.io/badge/Bootstrap-4.0.0-008C96.svg?style=flat
 [bootstrap-url]: https://getbootstrap.com/
 [license-image]: https://img.shields.io/badge/License-MIT-blue.svg
 [license-url]: ./LICENSE.md
