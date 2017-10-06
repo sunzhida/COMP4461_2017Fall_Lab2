@@ -10,7 +10,7 @@
 <!-- [![Inline docs](http://inch-ci.org/github/sunzhida/COMP4461_2017Fall_Lab2.svg?branch=master)](http://inch-ci.org/github/sunzhida/COMP4461_2017Fall_Lab2) -->
 <!-- [![Build Status][travis-image]][travis-url] -->
 
-In this lab, we will introduce how to program with Philips Hue with JavaScript. In this repository, there is a framework created for you to get started.
+In this lab, we will introduce how to program with Philips Hue by JavaScript. In this repository, there is a framework created for you to get started.
 
 ## Table of contents
 
