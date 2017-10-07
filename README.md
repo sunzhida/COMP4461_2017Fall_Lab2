@@ -1,8 +1,6 @@
 # Smart Device Programming
-> Lab materials for how to create smart home applications with Philips Hue.
-
-> Venue: Room 4221, Teaching Lab 1, Academic Building.
-
+> Lab materials for how to create smart home applications with Philips Hue.<br>
+> Venue: Room 4221, Teaching Lab 1, Academic Building.<br>
 > Date: Oct. 11, 2017
 
 [![Bootstrap][bootstrap-image]][bootstrap-url]
