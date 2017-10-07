@@ -14,7 +14,7 @@
 
 In this lab, we will introduce how to program with Philips Hue by JavaScript. In this repository, there is a framework created for you to get started.
 
-## Table of contents
+## Table of Contents
 
 - [Overview](#overview)
 - [Configuration](#configuration)
@@ -25,7 +25,7 @@ In this lab, we will introduce how to program with Philips Hue by JavaScript. In
 
 ## Overview
 
-### What is Philips Hue?
+### What is _Philips Hue_?
 [Philips Hue](https://en.wikipedia.org/wiki/Philips_Hue) is a line of color changing LED lamps and white bulbs created by Philips. It can provide an immersive
 experience with various user-defined lighting. There are different kinds of products in this line, and we are going to
 use ‘[Philips Hue White and Color Wireless Ambiance Starter Kit A19 E27](https://www.apple.com/hk/shop/product/HJCA2PA/B/philips-hue-white-and-color-wireless-ambiance-starter-kit-a19-e27)’ in this lab.
@@ -35,7 +35,7 @@ The set of Philips Hue that we used in our project consists of four parts:
 * Power adapter for Hue bridge
 * LAN cable to connect the Hue bridge to your router
 
-### How Philips Hue works?
+### How _Philips Hue_ works?
 There are [four components](https://developers.meethue.com/) within Hue system:
 * __Applications__: The control part of the system. It provides the interface for the users to make the lights do smart things.
 * __Portal__: The connection part of the system. It delivers control commands from outside and keeps your software in the bridge up-to-date. The portal presents a utility API to help you discover the address of your bridge.
@@ -65,7 +65,7 @@ You can acquire the detail information about the bridge through [this](https://a
 ### Web demo
 [Harmony for Philips Hue](http://benknight.github.io/hue-harmony/) is an open sourced web application that sets Philips Hue lights colors based on the color relationships.
 
-### Live Demo
+### Live demo
 We will follow the tutorials [here](https://developers.meethue.com/documentation/getting-started) to show how to get familiar with the programming environments with Hue.
 
 First, we need to obtain the _Internal IP Address_ and bridge assigned _Username_. After get connected with Hue bulb(s) via your devices, we can acquire all the bulbs' state through the link:
