@@ -18,7 +18,7 @@ In this lab, we will introduce how to program with Philips Hue by JavaScript. In
 
 - [Overview](#overview)
 - [Configuration](#configuration)
-- [Development](#development)
+- [Implementation](#implementation)
 - [Tips](#tips)
 - [Contribute](#contribute)
 - [Meta](#meta)
@@ -57,7 +57,7 @@ Note that your application and the bridge should be in the same local network.
 ### How to get the bridge details?
 You can acquire the detail information about the bridge through [this](https://account.meethue.com/login), like the Internal IP Address, Gateway, etc. You need this information to debug with the lights when you develop your applications.
 
-## Development
+## Implementation
 
 ### Mobile demo
 [Philips Hue](https://itunes.apple.com/us/app/philips-hue/id1055281310?mt=8) (by Philips Lighting BV) is a mobile application that lets you easily control your lights from any device and create the right ambience for every moment.
