@@ -46,7 +46,7 @@ There are [four components](https://developers.meethue.com/) within Hue system:
 
 ## Configuration
 
-### How to set up Philips Hue?
+### How to set up _Philips Hue_?
 First, we need to prepare all the components as mentioned above. Make sure that:
 * The application connects the local network created by the Wi-Fi router.
 * The Wi-Fi router connects the Internet.
