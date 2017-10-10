@@ -142,9 +142,7 @@ Here, the user name is `test`. After you get the bridge generated username, you 
 bridge.createUser('test').then(…);
 ```
 
-Otherwise, the bridge will keep on generate strings and you will not be able to proceed to the next step.
-
-After that you can follow the [instruction of jsHue](https://github.com/blargoner/jshue) to pass your commands to the bridge through your devices.
+Otherwise, the bridge will keep on generate strings and you will not be able to proceed to the next step. After compiling the code successfully, you can follow the [instruction of jsHue](https://github.com/blargoner/jshue) to pass your commands to the bridge through your devices.
 
 ## Tips
 + Involve in the development community to get inspired, e.g., [Hue Pro Development Community](https://plus.google.com/communities/117365177082293877496).
