@@ -130,9 +130,7 @@ The console information will also tell you the current state. If you get `error`
 ```js
 var user = bridge.user("<your username>");
 ```
-You will take the variable as a key to communicate with Hue.
-
-You can also change the name of the user in
+You will take the variable as a key to communicate with Hue. You can also change the name of the user in
 
 ```js
 bridge.createUser('test').then(…);
